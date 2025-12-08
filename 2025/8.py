@@ -66,7 +66,6 @@ for (i, j,), d in dists:
     res = connect_junctions(a, b)
     if res != None and pt_2 == None:
         pt_2 = res
-        break
 
 circuit_lens = sorted([len(c) for c in circuits], reverse=True)
 
